@@ -14,7 +14,7 @@ variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
   default     = "ami-0e86e20dae9224db8"
 }
-variable "bucket_name" {
+variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
   default     = "teksphere-777-cloud"
