@@ -19,9 +19,3 @@ variable "bucket_name" {
   type        = string
   default     = "teksphere-777-cloud"
 }
-
-variable "acl" {
-  description = "The ACL (Access Control List) for the S3 bucket"
-  type        = string
-  default     = "private"
-}
